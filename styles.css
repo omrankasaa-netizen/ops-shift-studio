@@ -4,3 +4,6 @@
 .btn-primary:hover,.btn-primary:active,.btn-primary:focus{color:#041018;text-shadow:none}
 /* Mobile nav dropdown */
 @media(max-width:768px){.nav-links.open{display:flex;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:flex-start;background:rgba(10,14,23,0.98);backdrop-filter:blur(20px);padding:24px;gap:18px;border-bottom:1px solid var(--border);z-index:999}}
+/* nav CTA override: beat .nav-links a color rule */
+.nav-links a.btn-primary{color:#041018;font-weight:700;text-shadow:none}
+.nav-links a.btn-primary:hover,.nav-links a.btn-primary:active,.nav-links a.btn-primary:focus{color:#041018;text-shadow:none}
